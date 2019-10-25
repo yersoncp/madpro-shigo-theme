@@ -1,0 +1,281 @@
+/* Global Style */
+html{font-size: 12px; line-height: 18px; color:#666;}
+a{text-decoration: none; color:#fb7f30;}
+a:hover{text-decoration: none; color:#ec762c;}
+img{max-width: 100%; height: auto;}
+body{background: #f6f6f6 url(../images/bg.png)}
+img#wpstats{display: none;}
+
+a.readmore:hover{text-decoration: underline;}
+
+.left{float: left;}
+.right{float:right;}
+.clear{clear:both;}
+hr{border:none; border-top:1px solid #ddd;}
+img.alignleft{float: left; margin: 10px 10px 10px 0;}
+.fb-like{margin-top: 20px}
+
+/* Font Style */
+h1, h2, h3, h4, h5, h6 {font-weight:bold; color: rgb( 77, 79, 84 );}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit; }
+h1 { font-size: 24px; font-weight: bold; line-height: 0.6;}
+h2 { font-size: 22px; line-height: 30px; margin-bottom: 10px; }
+h3 { font-size: 20px; line-height: 24px; margin-bottom: 8px; }
+h4 { font-size: 18px; line-height: 24px; margin-bottom: 4px; }
+h4.title_post { font-size: 15px; line-height: 24px; margin-bottom: 4px; }
+h5 { font-size: 14px; line-height: 18px; color: #fb7f30; }
+
+/*top-header*/
+.top-header{background: #1a1b1d; color:#afb0b2; padding:10px 0; font-size: 11px; }
+ul.social li{float:left;}
+ul.social li a{display: block; color:#afb0b2; padding: 0 10px; -o-transition:.3s; -ms-transition:.3s; -moz-transition:.3s; -webkit-transition:.3s; transition:.3s;}
+ul.social li a:hover{color:#fff;}
+
+/* Header Style */
+header{background: #fb7f30; padding: 5px 0;}
+	/*Logotype*/
+	.logotipo{float:left; padding: 13px 0}
+	.logotipo a{background: url(../images/logo.png) no-repeat center center; display:block; width: 180px; height: 46px; background-size: 100% auto;}
+	.logotipo a span{display:none;}
+	
+	/*Main menu*/
+	.slicknav_menu {display:none;}
+	nav ul{float:right;}
+	nav ul li{float:left; list-style: none}
+	nav ul li a{display: block; padding: 26px 15px; color:#fff; -o-transition:.5s; -ms-transition:.5s;
+  -moz-transition:.5s; -webkit-transition:.5s; transition:.5s; text-transform: uppercase; letter-spacing: 1px;}
+	nav ul li.current_page_item{color:#fff; font-weight: bold }
+	nav ul li a:hover{color:#fff; }
+	nav ul li a:active{color:#fff;}
+	nav ul li ul.children{float: none; position: relative; display: none; z-index: 999; background: #fff;}
+	nav ul li:hover ul.children{display: block; position: absolute;}
+	nav ul li ul.children li{float: none;}
+	nav ul li ul.children li a{display: block; border: none; border-bottom: 1px solid #ddd; color:#555;}
+
+/*Slidesshow*/
+	/*Arrows*/
+	.jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn{ position: absolute; cursor: pointer; display: block; background: url("../images/a12.png") no-repeat;
+	overflow: hidden; }
+	.jssora12l{background-position: -16px -37px;}
+	.jssora12r{background-position: -75px -37px;}
+	.jssora12l:hover{background-position: -136px -37px;}
+	.jssora12r:hover{background-position: -195px -37px;}
+	.jssora12ldn{background-position: -256px -37px;}
+	.jssora12rdn{background-position: -315px -37px;}
+
+/*featured home*/
+.featured {margin: 10px 0}
+.featured img{float: left; padding:0 15px 35px 0;}
+
+/*Content*/
+.content, .custom_content{margin-top: 10px}
+	.content p{line-height: 22px; margin-bottom: 15px}
+
+	/*Elements*/
+	.content .thumbnail img{max-width: 45%; float: right; padding: 0 0px 20px 20px;}
+	.content a:hover{text-decoration: underline;}
+	blockquote{background: #f7eccd; padding: 15px; margin:10px 0; font-size: 14px; line-height: 24px; color: #666; font-family: georgia, "Times New Roman", Sans; font-style: italic;}
+
+	.content ul li{list-style: circle; list-style-position: inside;}
+	.content h2,
+	.content h3,
+	.content h4,
+	.content h5{color: #fb7f30;}
+
+	/*Forms*/
+	.content table{-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+	.content table h2{color: #fff;}
+	.content table thead{background: #222; color: #fff; text-align: center;}
+	.content table tbody{background: #ff6201; color: #fff;}
+	.content table tr td{padding: 10px;}
+
+	/*postlist*/
+	.postlist{background: #fff; padding:10px 20px 20px 20px; border-bottom: 3px solid #ddd}
+
+	/*Custom List*/
+	.custom_postlist{background: #fff; width: 50%; float:left; border-bottom: 3px solid #ddd;}
+	.custom_postlist .post{float:left; width: 33%}
+	.custom_postlist .post p{padding-right: 10px}
+	.custom_postlist .madera, .custom_postlist .ferreteria{padding: 10px 15px;}
+		
+		/*titles*/
+		.custom_postlist h4{font-size:20px; color: #ff7300;}
+		.custom_postlist .madera h4{color: #ff7300;}
+		.custom_postlist .ferreteria h4{color: #109d77;}
+		.custom_postlist hr{margin-bottom:15px;}
+
+		.custom_postlist .ferreteria a{color: #109d77;}
+		.custom_postlist a:hover{text-decoration: underline;}
+
+	/*Productos*/
+	.products .post{width:25%; float: left; display: block; margin-bottom: 20px;}
+	.products .post img{width: 150px}
+	.products h2{font-size: 36px; line-height: 30px; margin-bottom: 16px; border-bottom: 1px solid #ccc; padding-bottom: 12px; margin-top: 15px; color: #ff6201;}
+
+	/*Contact*/
+	.contact .post{ padding:0 15px;}
+		div.wpcf7 { width: 61%; float: right;}
+		.contact .post form p.field{margin-bottom: 10px; margin-right: 20px; float: left}
+		.contact .post input {display: block;}
+		.contact .post textarea {display: block; width: 92%; padding: 5px}
+		.contact .post input[type="submit"] {display: block; padding: 10px 35px}
+		.contact .post select {display: block; padding: 10px}
+	.contact .location{margin-top:40px; padding:0 15px; }
+
+/*Icons*/
+i{display:inline-block; margin:0 5px;}
+i.location{background: url(../images/icn_location.png) no-repeat center center; margin-bottom:-3px; height: 14px; width: 10px;}
+
+i.facebook{background: url(../images/social.png) no-repeat 0 -17px; margin-bottom:-3px; height: 17px; width: 17px;}
+i.twitter{background: url(../images/social.png) no-repeat -17px -17px; margin-bottom:-3px; height: 17px; width: 17px;}
+i.destacado{background: url(../images/icn_destacado.png) no-repeat 0 0; display: block; height: 20px; width: 100px; margin-bottom: 0px; margin-left: 0px;}
+
+/* Content Style */
+.sidebar{}
+	.callme{margin-right: -10px; margin-bottom: 15px;}
+	.offer{margin-bottom: 15px;}
+	.widget{margin: 10px 0;}
+
+/*forms*/
+input{padding: 10px;}
+
+/*Wrapper*/
+.wrapper{padding: 10px 0 20px 0;}
+
+/* Footer Style */
+footer{background:#fff; border-top: 1px solid #c9c9c9;}
+footer .content {padding-top: 10px;}
+footer h4{color: #fb7f30;}
+
+.address{background: url(../images/pin-map.jpg) no-repeat left top; padding-left:30px; }
+.address p{line-height: 18px}
+	
+	/*Menu list*/
+	footer ul#menulist li a:hover{text-decoration: underline;}
+	
+	/*Social*/
+	ul.social-footer{text-align: center}
+	ul.social-footer li{display: inline-block;}
+	ul.social-footer li a{background:url(../images/social-footer.png); display: block; height: 21px; margin:20px 15px;  -o-transition:.3s; -ms-transition:.3s; -moz-transition:.3s; -webkit-transition:.3s; transition:.3s;}
+	ul.social-footer li a.facebook{width: 88px; background-position: 0 0}
+	ul.social-footer li a.facebook:hover{background-position: 0 -21px}
+	ul.social-footer li a.twitter{width: 92px; background-position: -88px 0}
+	ul.social-footer li a.twitter:hover{background-position: -88px -21px}
+	ul.social-footer li a span{display: none;}
+
+	.info{padding:15px 0; font-size: 12px;}
+	.info p{text-align: center;}
+	.info p a:hover{text-decoration: underline;}
+
+	.castor-bubble{position: fixed; bottom: -4px; right:0;}
+	.castor-bubble img{width: 350px}
+
+	/*Form*/
+	footer form #subscribe-email{float: left; width: 60%;}
+	footer form #subscribe-email input{padding: 10px; border: 1px solid #ccc; border-radius: 2px; margin: 8px 0;}
+	footer form #subscribe-submit{margin: 9px 0 0 200px;}
+
+	/*Carrusel*/
+    .brands li{text-align:center;}
+    .brands li span{display: block; margin-right: 15px;}
+    
+/*Copyright*/
+.copyright{background: #fff; color:#aaa;}
+
+/*---------------------------------------------------------------------------------------------*/
+
+/* Más pequeño que el estándar 960 (dispositivos y navegadores) */
+@media only screen and (max-width: 959px) {
+	.top-header{position: relative; width: 100%;}
+	header{position: relative; width: 100%; margin-top: 0px}
+
+	/*Menu responsive*/
+	#menulist {display:none; position: relative; z-index: 9999;}
+	.slicknav_menu {display:block; }
+
+	#slider1_container{margin-left: -6px}
+
+	/*Wrapper*/
+	.wrapper{padding: 20px 0 20px 0;}
+
+	footer .content .widget{width: 41%; float: left;}
+	footer .content .catalogo p {padding: 92px 0 0px 0px;}
+
+	footer form #subscribe-email{float: none; width: 100%;}
+	footer form #subscribe-submit{margin: 0;}
+
+	.products .post{width:32%; margin-left: 1%}
+	
+	h4.title_post {font-size: 12px; line-height: 16px;}
+}
+
+/* Todos los tamaños de los dispositivos móviles, tablet y navegador menor a 767px */
+@media only screen and (max-width: 750px) {
+	/*Wrapper*/
+	.wrapper{padding: 0px 0 20px 0;}
+	.callme, .offer{display: none}
+	.featured .featured_item{border-bottom:1px dotted #888; padding-bottom:10px; margin-bottom: 10px;}
+	.custom_postlist{background: #fff; width: 100%; float: none;}
+
+	footer .content {padding: 0;}
+	footer .footer-item {padding-bottom: 10px}
+
+	.sidebar{padding:0 20px;}
+	footer{padding:0 20px;}
+}
+
+/* Mobile menor a 479px*/
+@media only screen and (max-width: 480px) {
+	.top-header{display: none}
+	.slicknav_menu {
+		font-size:13px;
+	    top:15px;
+	    right: 10px; 
+	}
+
+	.products .post{width:48%; margin-left: 1%}
+}
+
+/* Mobile menor a 420px*/
+@media only screen and (max-width: 420px) {
+	.custom_postlist .post{float:left; width: 32%; margin-left: 1%}
+}
+
+
+.link-whatsapp {
+   position: fixed;
+   z-index: 999;
+   bottom: 30px;
+   right: 30px;
+   background: #33af6b;
+   display: inline-block;
+   border-radius: 40px;
+   padding: 14px 16px;
+   color: #fff;
+   transition: all .3s;
+   box-shadow: 2px 2px 18px #5de2a8;
+}
+
+.link-whatsapp::before {
+   content: 'Hola, ¿Puedo ayudarte en algo?...';
+   display: block;
+   position: absolute;
+   background: #fff;
+   padding: 12px 16px;
+   border-radius: 30px 30px 0 30px;
+   box-shadow: 2px 2px 10px #ccc;
+   bottom: 70px;
+   width: 240px;
+   right: 0;
+	left: auto;
+	font-size: 14px;
+	color: #666;
+}
+
+.link-whatsapp:hover {
+   background: #18a065;
+}
+
+.link-whatsapp img {
+   width: 32px;
+}
